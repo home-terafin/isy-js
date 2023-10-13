@@ -316,6 +316,13 @@
         "connectionType": "Insteon Wired",
         "batteryOperated": false
     }, {
+        "type": "9.11.58.0",
+        "address": "",
+        "name": "240V AC Relay",
+        "deviceType": "Outlet",
+        "connectionType": "Insteon Wired",
+        "batteryOperated": false
+    }, {
         "type": "15.6.66.0",
         "address": "1",
         "name": "MorningLinc v.42",
