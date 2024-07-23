@@ -11,11 +11,11 @@ export class InsteonRelayDevice extends ISYUpdateableBinaryStateDevice(InsteonBa
 		return this.state;
 	}
 	public async updateIsOn(isOn: boolean): Promise<any> {
-		if (this.isOn !== isOn) {
+		// if (this.isOn !== isOn) {
 			return super.updateState(isOn);
-		}
-		else {
-			return Promise.resolve();
-		}
+		// }
+		// else {
+		// 	return Promise.resolve();
+		// }
 	}
 }
